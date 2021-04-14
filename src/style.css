@@ -17,7 +17,9 @@ button {
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 /**
 * Sidebar CSS
 */
@@ -48,15 +50,28 @@ padding: 15px;
 }
 }
 .author{
-    font-size: .8rem;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-size: .9rem;
+    float: right;
+    margin-top: -17px;
 }
+.poscriptum{
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-size: .8rem;
+    float: left;
+    margin-top: -17px;
+    font-family: 'Architects Daughter', cursive;
+}
+
 .mui-textfield>input:focus {
     border-color: #E57373;
 }
 .floating-btn{
     position: fixed;
     bottom: 50px;
-    right: 50px;
+    right: 30px;
 }
 
 .modal{
@@ -76,4 +91,40 @@ padding: 15px;
 
 .error {
     color: red;
+}
+
+.ask-me {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #E57373;
+}
+
+#modal-btn{
+    padding-top: 9px;
+    background-color:#E57373;
+}
+.duck-picture > img{
+    max-width: 80%;
+}
+
+.duck-picture{
+    text-align: center;
+}
+
+.mui--text-white{
+    font-family: 'Architects Daughter', cursive;
+}
+
+#submit{
+    font-family: 'Lato', sans-serif;
+}
+
+.no-questions{
+    font-family: 'Caveat', cursive;
+    Color: #28aa16;
+    font-size: 1.6rem;
+}
+.modal h1{
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
 }

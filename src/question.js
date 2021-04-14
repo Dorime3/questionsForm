@@ -40,7 +40,7 @@ export class Question{
     static renderList() {
         const questions = getQuestionsFromLocalStorage();
 
-        const html = questions.length ? questions.map(toCard).join('') : ` <div class="mui--text-headline">Вы пока еще ничего не спрашивали</div>`;
+        const html = questions.length ? questions.map(toCard).join('') : ` <div class="mui--text-headline no-questions">Вы пока еще ничего не спрашивали</div>`;
 
 
         const list = document.getElementById('list');
